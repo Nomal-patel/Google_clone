@@ -23,13 +23,26 @@ input {
   
   input[type=text] {
     margin: 0 0 0 15px;
-    border-radius: 0px;
+    border-radius: 95px;
     width: 600px;
     border-color: black;
     padding-left: 40px;
-    
-
   }
+
+  input[name="as_eq"]{
+    border-radius: 0px;
+  }
+  input[name="as_oq"]{
+    border-radius: 0px;
+  }  
+  input[name="as_epq"]{
+    border-radius: 0px;
+  }  
+  input[name="as_q"]{
+    border-radius: 0px;
+  }
+
+
   input[type=submit] {
     position: relative;
     font-size: 14px;
@@ -196,7 +209,7 @@ a {
 
 
 
-  input.blue-button {
+  input[class="blue-button"] {
     background-color: dodgerblue;
     color: white;
     font-size: smaller;
