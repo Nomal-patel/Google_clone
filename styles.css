@@ -22,8 +22,8 @@ input {
   }
   
   input[type=text] {
-    margin: 0 0 0 5px;
-    border-radius: 95px;
+    margin: 0 0 0 15px;
+    border-radius: 0px;
     width: 600px;
     border-color: black;
     padding-left: 40px;
@@ -100,5 +100,159 @@ a {
     text-decoration: none;
     color: black;
   }
+
+  .header, .header-links, .header-advanced-logo, .header-advanced {
+    display: flex;
+    align-items: center;
+  }
+  .header a, .header-links a, .header-advanced-logo a, .header-advanced a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .header-advanced {
+    height: 50px;
+  }
+
+  .header-advanced-logo img {
+    height: 30px;
+  }
+
+  .appbar{
+    font-size: 20px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    color: red;
+  }
+
+  .form-group{
+    padding: 15px;
+  }
+
+
+  .clarification{
+    float: right;
+  }
+
+  .whitespace{
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+.header-advanced {
+  background-color: #f1f1f1;
+  height: 50px;
+}
+  
+
+  .advanced-search-container .form-group .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 15%;
+  }
+  .advanced-search-container .form-group .clarification .monospace {
+    font-family: monospace;
+  }
+
+
+
+
+
+
+  .advanced-search-container .whitespace {
+    display: inline-block;
+    width: 50%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .advanced-search-container {
+    margin: 50px 40px;
+  }
+  .advanced-search-container label {
+    display: inline-block;
+    width: 16%;
+    font-size: 20px;
+  }
+  .advanced-search-container .whitespace {
+    display: inline-block;
+    width: 50%;
+  }
+  .advanced-search-container .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+
+
+
+  input.blue-button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 0px;
+    border: 1px solid #156bbd;
+    float: right;
+    padding: 10px 2px;
+    margin: 0;
+  }
+  
+
+
+
+  
+  
+ 
+  
+  
+  
+
+ 
+
+
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+
+
+
 
   
