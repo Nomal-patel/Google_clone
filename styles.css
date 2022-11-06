@@ -210,6 +210,7 @@ a {
 
 
   input[class="blue-button"] {
+    background-color: dodgerblue;
     color: white;
     font-size: smaller;
     max-width: 200px;
