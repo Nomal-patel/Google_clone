@@ -220,6 +220,23 @@ a {
     padding: 10px 2px;
     margin: 0;
   }
+
+
+
+  @media screen and (max-width:770px){
+    .search-field {
+      width: 450px;
+    }
+
+    .submit-button{
+      position: relative;
+      left: -50px;
+    }
+    
+
+  }
+
+
   
 
 
